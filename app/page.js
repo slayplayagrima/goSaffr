@@ -19,27 +19,27 @@ export default function Home() {
           </p>
 
           <div className="bg-white p-6 rounded-xl shadow-soft space-y-6">
-            <input
+            {/* <input
               placeholder="Where to?"
               className="w-full h-14 rounded-lg border border-gray-300 px-4 text-base focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
-            />
+            /> */}
 
             <div className="grid grid-cols-2 gap-4">
-              <select
+              {/* <select
                 className="w-full h-12 rounded-lg border border-gray-300 px-4 focus:outline-none focus:ring-2 focus:ring-[var(--primary)]">
                 <option>Mumbai</option>
                 <option>Delhi</option>
                 <option>Bengaluru</option>
-              </select>
+              </select> */}
 
-              <div className="flex items-center justify-center bg-gray-100 rounded-lg text-sm font-semibold">
+              {/* <div className="flex items-center justify-center bg-gray-100 rounded-lg text-sm font-semibold">
                 Estimated Fare:
                 <span className="text-[var(--russian-green-dark)] ml-1">₹250</span>
-              </div>
+              </div> */}
             </div>
 
             <button className="w-full h-14 rounded-lg bg-[var(--primary)] text-white font-bold text-lg hover:bg-[var(--primary-light)] transition">
-              Find a Ride
+              Coming soon!
             </button>
           </div>
         </div>
@@ -146,9 +146,9 @@ export default function Home() {
 
       <section className="py-25 px-6 bg-[#EAF4EF] max-w-full mx-auto mt-20">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-black text-[var(--primary)]">
+          {/* <h1 className="text-4xl font-black text-[var(--primary)]">
             Trusted by Riders Across India
-          </h1>
+          </h1> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 px-9 gap-8">
@@ -156,61 +156,61 @@ export default function Home() {
           {/* CARD 1 */}
           <div className="bg-white p-6 rounded-2xl shadow-soft flex flex-col gap-4">
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src="/person1.png"
                 className="w-14 h-14 rounded-full object-cover"
                 alt="Priya"
-              />
+              /> */}
               <div>
-                <h3 className="font-bold text-lg">Priya S.</h3>
-                <p className="text-yellow-500 text-sm">★★★★★</p>
+                {/* <h3 className="font-bold text-lg">Priya S.</h3>
+                <p className="text-yellow-500 text-sm">★★★★★</p> */}
               </div>
             </div>
 
-            <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
+            {/* <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
               "GoSaffr is my go-to for late-night travel. The safety features are top-notch and
               give me peace of mind."
-            </p>
+            </p> */}
           </div>
 
           {/* CARD 2 */}
           <div className="bg-white p-6 rounded-2xl shadow-soft flex flex-col gap-4">
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src="/person2.png"
                 className="w-14 h-14 rounded-full object-cover"
                 alt="Rohan"
-              />
+              /> */}
               <div>
-                <h3 className="font-bold text-lg">Rohan M.</h3>
-                <p className="text-yellow-500 text-sm">★★★★★</p>
+                {/* <h3 className="font-bold text-lg">Rohan M.</h3>
+                <p className="text-yellow-500 text-sm">★★★★★</p> */}
               </div>
             </div>
 
-            <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
+            {/* <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
               "Finally, a cab service with transparent pricing! I know exactly what I'm paying
               before the ride starts. Highly recommend."
-            </p>
+            </p> */}
           </div>
 
           {/* CARD 3 */}
           <div className="bg-white p-6 rounded-2xl shadow-soft flex flex-col gap-4">
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src="/person3.png"
                 className="w-14 h-14 rounded-full object-cover"
                 alt="Anjali"
-              />
+              /> */}
               <div>
-                <h3 className="font-bold text-lg">Anjali K.</h3>
-                <p className="text-yellow-500 text-sm">★★★★★</p>
+                {/* <h3 className="font-bold text-lg">Anjali K.</h3>
+                <p className="text-yellow-500 text-sm">★★★★★</p> */}
               </div>
             </div>
 
-            <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
+            {/* <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
               "The cars are always so clean and the drivers are professional. It's a premium
               experience without the premium price tag."
-            </p>
+            </p> */}
           </div>
 
         </div>
