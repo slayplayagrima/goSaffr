@@ -1,0 +1,77 @@
+/* -------------------------------- */
+/*         TAILWIND v4 IMPORT        */
+/* -------------------------------- */
+@import "tailwindcss";
+
+
+/* -------------------------------- */
+/*      CUSTOM COLOR VARIABLES       */
+/* -------------------------------- */
+:root {
+  --primary: #4B0082;             /* Dark Purple */
+  --primary-light: #6A0DAD;       /* Lighter Purple */
+  --background-light: #F7FCF9;    /* Light green tint */
+  --sage: #A7D7C5;
+  --russian-green: #6A994E;
+  --russian-green-dark: #5A8342;
+  --pewter-blue: #89A7B1;
+  --cambridge-blue: #abdfc6b3;   
+  --cambridge-blue-dark:#8bafa2;   /* Grey-sage */
+  --card-light: #FFFFFF;
+  --text-primary-light: #1E293B;
+  --text-secondary-light: #64748B;
+
+  /* radius */
+  --radius-default: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  /* shadows */
+  --shadow-soft:
+    0 10px 25px -5px rgba(0,0,0,0.05),
+    0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+/* -------------------------------- */
+/*         GLOBAL BODY STYLE         */
+/* -------------------------------- */
+body {
+  background: var(--background-light);
+  color: var(--text-primary-light);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------- */
+/*   CUSTOM UTILITIES (Tailwind v4)  */
+/* -------------------------------- */
+
+/* Background color utilities (optional, but safe in v4) */
+.bg-primary { background-color: var(--primary) !important; }
+.bg-primary-light { background-color: var(--primary-light) !important; }
+.bg-sage { background-color: var(--sage) !important; }
+.bg-cambridge-blue { background-color: var(--cambridge-blue) !important; }
+.bg-pewter-blue { background-color: var(--pewter-blue) !important; }
+.bg-card-light { background-color: var(--card-light) !important; }
+
+/* Text colors */
+.text-primary { color: var(--primary) !important; }
+.text-primary-light { color: var(--primary-light) !important; }
+.text-secondary-light { color: var(--text-secondary-light) !important; }
+.text-russian-green { color: var(--russian-green) !important; }
+.text-russian-green-dark { color: var(--russian-green-dark) !important; }
+
+/* Border radius */
+.rounded-default { border-radius: var(--radius-default); }
+.rounded-lg { border-radius: var(--radius-lg); }
+.rounded-xl { border-radius: var(--radius-xl); }
+
+/* Soft shadow */
+.shadow-soft { box-shadow: var(--shadow-soft); }
+
+/* Glass */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(230,235,240,0.8);
+}
