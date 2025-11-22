@@ -269,7 +269,7 @@ export default function Home() {
         Yogesh
       </h3>
       <p className="text-[var(--russian-green-dark)] text-sm font-semibold mb-3">
-        Co-Founder
+        Founder
       </p>
 
       <p className="text-[var(--text-secondary-light)] text-sm leading-relaxed">
