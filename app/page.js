@@ -1,12 +1,12 @@
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Footer from "../components/Footer"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#EAF4EF] ">
-      <Header />
+      {/* <Header /> */}
 
-      <section className="max-w-full bg-[var(--cambridge-blue)] mx-auto px-23 pt-23 pb-20 grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+      <section className="max-w-full bg-[var(--cambridge-blue)] mx-auto px-23 pt-30 pb-25 grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
 
         <div className="space-y-2">
           <h1 className="text-4xl md:text-5xl font-black leading-none text-[var(--text-primary-light)]">
@@ -46,11 +46,11 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <img src="/image.png" alt="Hero Image" className="w-full max-w-lg rounded-2xl shadow-soft"/>
+          <img src="/logo.png" alt="Hero Image" className="w-full max-w-lg rounded-2xl "/>
         </div>
 
       </section>
-      <section className="py-20 px-15 bg-[#EAF4EF] max-w-full mx-auto mt-20">
+      <section className="py-0 px-15 bg-[#EAF4EF] max-w-full mx-auto mt-20">
         <div className="text-center  max-w-3xl mx-auto mb-14">
           <h1 className="text-4xl font-black text-[var(--primary)]">
             Why Ride with GoSaffr?

@@ -25,10 +25,10 @@ export default function Header() {
           About
         </a>
 
-        <button className=" text-[var(--text-secondary-light)] font-bold px-3 py-1.5 rounded-md hover:bg-[var(--primary)] hover:text-white transition">
+        {/* <button className=" text-[var(--text-secondary-light)] font-bold px-3 py-1.5 rounded-md hover:bg-[var(--primary)] hover:text-white transition">
           Sign In
         </button>
-        <button className="bg-[var(--primary)] text-white font-bold px-3 py-1.5 rounded-md hover:bg-[var(--cambridge-blue-dark)] hover:text-[var(--text-secondary-light)] transition">Sign Up</button>
+        <button className="bg-[var(--primary)] text-white font-bold px-3 py-1.5 rounded-md hover:bg-[var(--cambridge-blue-dark)] hover:text-[var(--text-secondary-light)] transition">Sign Up</button> */}
       </nav>
     </header>
   );
