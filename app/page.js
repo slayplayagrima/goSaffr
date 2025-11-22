@@ -18,11 +18,12 @@ export default function Home() {
             and the best service in India.
           </p>
 
-          <div className="bg-white p-6 rounded-xl shadow-soft space-y-6">
+          <div className="p-6 rounded-xl space-y-6">
             {/* <input
               placeholder="Where to?"
               className="w-full h-14 rounded-lg border border-gray-300 px-4 text-base focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
             /> */}
+            <h1 className="font-black text-6xl text-primary ">Coming Soon!</h1>
 
             <div className="grid grid-cols-2 gap-4">
               {/* <select
@@ -38,9 +39,9 @@ export default function Home() {
               </div> */}
             </div>
 
-            <button className="w-full h-14 rounded-lg bg-[var(--primary)] text-white font-bold text-lg hover:bg-[var(--primary-light)] transition">
+            {/* <button className="w-full h-14 rounded-lg bg-[var(--primary)] text-white font-bold text-lg hover:bg-[var(--primary-light)] transition">
               Coming soon!
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -144,7 +145,7 @@ export default function Home() {
       </section>
 
 
-      <section className="py-25 px-6 bg-[#EAF4EF] max-w-full mx-auto mt-20">
+      <section className="py-0 px-6 max-w-full ">
         <div className="text-center mb-12">
           {/* <h1 className="text-4xl font-black text-[var(--primary)]">
             Trusted by Riders Across India
@@ -154,7 +155,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 px-9 gap-8">
 
           {/* CARD 1 */}
-          <div className="bg-white p-6 rounded-2xl shadow-soft flex flex-col gap-4">
+          <div className=" p-6 rounded-2xl  flex flex-col gap-4">
             <div className="flex items-center gap-4">
               {/* <img
                 src="/person1.png"
@@ -174,7 +175,7 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="bg-white p-6 rounded-2xl shadow-soft flex flex-col gap-4">
+          <div className=" p-6 rounded-2xl  flex flex-col gap-4">
             <div className="flex items-center gap-4">
               {/* <img
                 src="/person2.png"
@@ -194,7 +195,7 @@ export default function Home() {
           </div>
 
           {/* CARD 3 */}
-          <div className="bg-white p-6 rounded-2xl shadow-soft flex flex-col gap-4">
+          <div className=" p-6 rounded-2xl flex flex-col gap-4">
             <div className="flex items-center gap-4">
               {/* <img
                 src="/person3.png"
